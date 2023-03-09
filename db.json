@@ -1,0 +1,60 @@
+{
+  "cats": [
+    {
+      "id": 1,
+      "name": "Siamese cat",
+      "quantity": 30,
+      "available": true,
+      "selected": true,
+      "price": 9999
+    },
+    {
+      "id": 2,
+      "name": "British Shorthair",
+      "quantity": 200,
+      "available": true,
+      "selected": true,
+      "price": 10000
+    },
+    {
+      "id": 3,
+      "name": "Persian Cat",
+      "quantity": 1000,
+      "available": true,
+      "selected": true,
+      "price": 2500
+    },
+    {
+      "id": 4,
+      "name": "Abyssinian",
+      "quantity": 8000,
+      "available": true,
+      "selected": true,
+      "price": 3000
+    },
+    {
+      "id": 5,
+      "name": "American Shorthair",
+      "quantity": 6000,
+      "available": true,
+      "selected": true,
+      "price": 8999
+    },
+    {
+      "id": 6,
+      "name": "Burmese Cat",
+      "quantity": 40,
+      "available": true,
+      "selected": true,
+      "price": 5999
+    },
+    {
+      "name": "Sphynx cat",
+      "quantity": 10,
+      "available": true,
+      "selected": true,
+      "price": 100000,
+      "id": 7
+    }
+  ]
+}

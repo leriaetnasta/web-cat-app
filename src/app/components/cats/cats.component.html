@@ -1,0 +1,47 @@
+<div class="container">
+  <ul>
+    <li>
+      <button (click)="onGetAllCats()" >all</button>
+    </li>
+    <li>
+      <button>selected</button>
+    </li>
+    <li>
+      <button>available</button>
+    </li>
+  </ul>
+
+</div>
+
+<div class="container" *ngIf="cats">
+  <table>
+    <th>
+      id
+    </th>
+    <th>
+      name
+    </th>
+    <th>
+      price
+    </th>
+    <th>
+      quantity
+    </th>
+    <th>
+      selected
+    </th>
+    <th>
+      available
+    </th>
+
+    <tr *ngFor="let c of cats$|async" >
+      <td>{{c.id}}</td>
+      <td>{{c.name}}</td>
+      <td>{{c.price}}</td>
+      <td>{{c.quantity}}</td>
+      <td>{{c.selected}}</td>
+      <td>{{c.available}}</td>
+
+    </tr>
+  </table>
+</div>
